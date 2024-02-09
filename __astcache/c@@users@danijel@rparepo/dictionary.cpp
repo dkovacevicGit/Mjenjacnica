@@ -1,4 +1,4 @@
-//---------------------------------------------------------------------------
+﻿//---------------------------------------------------------------------------
 
 #pragma hdrstop
 
@@ -157,6 +157,71 @@ void Prevoditelj::Engleski()
 
 void Prevoditelj::Njemacki()
 {
+	FormPocetna->Caption = "Wechselstube";
+	FormPocetna->ButtonCurrencyList->Caption = "Currency list";
+	FormPocetna->ButtonTransactions->Caption = "Transactions";
+	FormPocetna->ButtonSupervisors->Caption = "Supervisors";
+	FormPocetna->ButtonSettings->Caption = "Settings";
+	FormPocetna->ButtonExit->Caption = "Exit";
+	FormPocetna->MainMenu1->Items[0].Items[0]->Caption = "Language";
+	FormPocetna->MainMenu1->Items[0].Items[1]->Caption = "Help";
+	FormPocetna->MainMenu1->Items[0].Items[2]->Caption = "About";
+
+	FormAdminLogin->Caption = "Admin Login";
+	FormAdminLogin->LabelUsername->Caption = "Username:";
+	FormAdminLogin->LabelPassword->Caption = "Password:";
+	FormAdminLogin->BtLoginAdminOk->Caption = "Login";
+	FormAdminLogin->BtLoginAdminCancel->Caption = "Cancel";
+
+	FormShiftLogin->Caption = "Shift Login";
+	FormShiftLogin->Label1->Caption = "Username:";
+	FormShiftLogin->Label2->Caption = "Password:";
+	FormShiftLogin->BtLoginShiftOk->Caption = "Login";
+	FormShiftLogin->BtLoginShiftCancel->Caption = "Cancel";
+
+	FormSuperLogin->Caption = "Super Login";
+	FormSuperLogin->Label1->Caption = "Username:";
+	FormSuperLogin->Label2->Caption = "Password:";
+	FormSuperLogin->BtLoginSuperOk->Caption = "Login";
+	FormSuperLogin->BtLoginSuperCancel->Caption = "Cancel";
+
+	FormTecajnaLista->Caption = "Currency list";
+
+	FormTransakcije->Caption = "Transactions";
+
+	FormKontrola->Caption = "Supervisor control";
+	FormKontrola->Label1->Caption = "Currency:";
+	FormKontrola->Label2->Caption = "Exchange ratio:";
+	FormKontrola->Label3->Caption = "Amount:";
+	FormKontrola->Label4->Caption = "Seller name:";
+	FormKontrola->Label5->Caption = "EUR";
+	FormKontrola->ButtonOtkup->Caption = "Buy";
+	FormKontrola->ButtonProdaja->Caption = "Sell";
+	FormKontrola->ButtonDelete->Caption = "Delete list";
+	FormKontrola->ButtonEdit->Caption = "Edit row";
+	FormKontrola->Label7->Caption = "EUR inflow:";
+	FormKontrola->Label9->Caption = "EUR exit:";
+	FormKontrola->Label13->Caption = "Cash saldo:";
+	FormKontrola->ButtonExit->Caption = "Exit";
+	FormKontrola->ButtonDeleteRowXml->Caption = "Delete selected";
+
+
+	FormPostavke->Caption = "Settings";
+	FormPostavke->Label3->Caption = "User administration";
+	FormPostavke->Label4->Caption = "User details";
+	FormPostavke->Label5->Caption = "(type OIB, First name or Last name)";
+	FormPostavke->Label6->Caption = "Search user";
+	FormPostavke->Label7->Caption = "Company office administration";
+	FormPostavke->Label1->Caption = "Office details:";
+	FormPostavke->Label2->Caption = "Role description";
+	FormPostavke->Button4UploadPic->Caption = "Import identification document";
+	FormPostavke->Button1Search->Caption = "Search";
+	FormPostavke->Button2NewUser->Caption = "New user";
+	FormPostavke->Button3DelUser->Caption = "Delete selected user";
+	FormPostavke->Button2->Caption = "Import from file";
+	FormPostavke->Button3->Caption = "Export to file";
+	FormPostavke->ButtonExpToPdf->Caption = "Create report";
+	FormPostavke->ButtonExit->Caption = "Exit";
 
 }
 
